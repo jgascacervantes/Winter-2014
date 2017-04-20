@@ -1,5 +1,7 @@
 function love.load()
-    memes = love.graphics.newParticleSystem( love.graphics.newImage("Cory.png"), 10)
+    
+    im = love.graphics.newImage("resources/x2.png")
+    memes = love.graphics.newParticleSystem( im, 10)
     memes:setParticleLifetime( 2, 5)
     memes:setSizeVariation(1)
     memes:setLinearAcceleration(-30, -30, 30, 30)
