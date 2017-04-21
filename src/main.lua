@@ -1,3 +1,4 @@
+require "hump/class"
 function love.load()
     love.window.setMode(1280, 720, {resizable=false, vsync=false})
     bg = love.graphics.newImage("resources/kitchen 1280x720.png")
